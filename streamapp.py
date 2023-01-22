@@ -11,9 +11,9 @@ import pickle
 
 import streamlit as st
 
-ra_model=pickle.load(open("C:\\Users\\DELL\\Desktop\\ML_chaitanya\\ra_model.sav",'rb'))
+ra_model=pickle.load(open("ra_model.sav",'rb'))
 
-mrr_model=pickle.load(open("C:\\Users\\DELL\\Desktop\\ML_chaitanya\\mrr_model.sav",'rb'))
+mrr_model=pickle.load(open("mrr_model.sav",'rb'))
 
 # creating a function for prediction
 
