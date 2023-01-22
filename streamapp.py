@@ -45,7 +45,7 @@ def main():
     
     if st.button("Predict"):
         if(s!="" and f!="" and d!=""):
-            st.write(type(s))
+   
             output=prediction([s,f,d])
             st.write("Predicted Output :")
             st.write("ra : "+str(output[0][0]))
